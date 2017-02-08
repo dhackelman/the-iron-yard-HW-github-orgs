@@ -1,0 +1,20 @@
+.username-form {
+    box-sizing: border-box;
+    padding: 5%;
+    border: none;
+    border-bottom: 2px solid $innerBorderColor;
+    outline: none;
+    width: 90%;
+
+    input {
+      font-size: 2rem;
+      width: 100%;
+    }
+}
+
+::-webkit-input-placeholder {
+    font-style: italic;
+}
+::-moz-input-placeholder {
+    font-style: italic;
+}
